@@ -17,9 +17,10 @@ str4 = '{0:_^11} is a 11 length.'.format(name)
 str5 = '{first} is as {second}.'.format(first=name,second='Wred')
 #:n 占字符空间为n个字符
 str6 = 'My name is {0:8}.'.format('Fred')
-print(str1)
-print(str2)
-print(str3)
-print(str4)
-print(str5)
-print(str6)
+print(str1) #July is 22 years old.
+print(str2) #July is a girl.
+print(str3) #33.33%is a decimal.
+print(str4) #___July____ is a 11 length.
+print(str5) #July is as Wred.
+print(str6) #My name is Fred    .
+
